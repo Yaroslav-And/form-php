@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+       <div class="container">
+            <h2 class="name">John Smith</h2>
+            <div class="profile">
+                <h1>I’m John. <br>I build beautiful <span class="bg">responsive websites</span>.</h1>
+                <a href="#" class="btn">View Portfolio</a>
+                <a href="#" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </header>
+    <section class="skills">
+        <div class="container">
+            <div class="opportunities">
+                <h2 class="statement">I can help.</h2>
+            <div class="skill">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo <br> diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem <br> vitae risus tristique posuere.</p> 
+                <div class="progress">
+                    <h3 class="progress-bar web">WEB DESIGN</h3>
+                    <h3 class="progress-bar responsive">RESPONSIVE DESIGN</h3>
+                    <h3 class="progress-bar ui">UI DESIGN</h3>
+                    <h3 class="progress-bar mobile">MOBILE APPS</h3> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="progects">
+        <div class="container">
+            <h2 class="caption">My Projects</h2>
+            <div class="gallery">
+            <a href="#" class="photo birds"><figure><img src="images/birds.jpg" alt="birds" ><figcaption><h3>birds</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo field"><figure><img src="images/field.jpg" alt="field" ><figcaption><h3>Field</h3><p>PHOTO</p></figcaption></figure></a>
+            <a href="#" class="photo bridge"><figure><img src="images/bridge.jpg" alt="bridge" ><figcaption><h3>Bridge</h3><p>ILLUSTRATION</p></figcaption></figure></a>
+            <a href="#" class="photo raybans"><figure><img src="images/raybans.jpg" alt="raybans" ><figcaption><h3>Raybas</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo sand"><figure><img src="images/sand.jpg" alt="sand" ><figcaption><h3>Sand</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo people"><figure><img src="images/people.jpg" alt="people" ><figcaption><h3>People</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo beach"><figure><img src="images/beach.jpg" alt="beach" > <figcaption><h3>Beach</h3><p>GRAPHIC</p></figcaption></figure></a>
+            <a href="#" class="photo lake"><figure><img src="images/lake.jpg" alt="lake" ><figcaption><h3>Lake</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo sky"><figure><img src="images/sky.jpg" alt="sky" ><figcaption><h3>Sky</h3><p>WEBSITE</p></figcaption></figure></a>
+            <a href="#" class="photo ocean"><figure><img src="images/ocean.jpg" alt="ocean" ><figcaption><h3>Ocean</h3><p>WEBSITE</p></figcaption></figure></a>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts-flex">
+                <div class="contacts-description">   
+                    <h2 class="contacts-h2">Get in touch</h2>
+                    <p class="contacts-p">Let's work together. Submit your details in this form and I will get back to you ASAP.</p>
+                </div>
+                <div class="contacts-form">
+                    <form action="form.php" id="data" method="post">
+                        <input type="text" placeholder="Name" class="input-name" name="userName" id="name">
+                        <input type="mail" placeholder="Email" class="input-name" name="userMail" id="mail">
+                        <input type="text" placeholder="Budget (optional)" class="input-name" name="userBudget" id="budget">
+                        <input type="text" placeholder="Describe your project..." class="input-name textarea" name="userDescripe" id="Descripe">
+                        <button class="form-btn" type="submit">Send inquiry</button>
+                    </form>
+            </div>
+            </div>
+        </div>
+    </section>
+   <footer>
+    <div class="container">
+        <div class="foot-flex">
+            <p class="foot-name">John Smith</p>
+            <div class="icons">
+                <a href="#"><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.052 11.454L5.352 8.933C5.139 8.734 4.794 8.734 4.581 8.933L0 13.201V13.782C0 14.324 0.475 14.765 1.055 14.765H15.82C16.4 14.765 16.875 14.324 16.875 13.782V13.201L12.294 8.931C12.08 8.734 11.734 8.734 11.523 8.931L8.823 11.452C8.61 11.652 8.265 11.652 8.052 11.454ZM13.791 7.536L16.49 10.057C16.702 10.256 16.875 10.18 16.875 9.889V4.465C16.875 4.173 16.702 4.098 16.49 4.297L13.791 6.818C13.577 7.016 13.577 7.337 13.791 7.536ZM1.055 0C0.475 0 0 0.443 0 0.984V1.161L8.011 8.665C8.223 8.864 8.567 8.864 8.779 8.665L16.875 1.072V0.984C16.875 0.443 16.4 0 15.82 0H1.055ZM0 4.465V9.889C0 10.18 0.173 10.256 0.385 10.057L3.084 7.536C3.298 7.337 3.298 7.016 3.084 6.817L0.385 4.297C0.173 4.098 0 4.173 0 4.465Z" fill="black"/>
+                    </svg></a>
+                    <a href="#"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.875 0H2.125C0.956 0 0 0.957 0 2.125V14.875C0 16.045 0.956 17 2.125 17H8.574V10.904H6.537V8.249H8.574V6.919C8.574 4.868 10.087 3.262 12.019 3.262H13.896V6.26H12.217C11.779 6.26 11.648 6.512 11.648 6.861V8.249H13.896V10.904H11.648V17H14.875C16.045 17 17 16.045 17 14.875V2.125C17 0.957 16.045 0 14.875 0Z" fill="black"/>
+                    </svg></a>                  
+                    <a href="#"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 1.731C17.337 2.024 16.626 2.223 15.879 2.312C16.641 1.855 17.227 1.131 17.502 0.27C16.79 0.693 15.999 1 15.158 1.165C14.484 0.448 13.523 0 12.462 0C10.423 0 8.76898 1.652 8.76898 3.692C8.76898 3.981 8.80098 4.263 8.86498 4.534C5.79498 4.379 3.07398 2.909 1.25298 0.676C0.934977 1.221 0.752977 1.856 0.752977 2.531C0.752977 3.813 1.40498 4.943 2.39598 5.605C1.79098 5.586 1.22098 5.42 0.722977 5.144C0.722977 5.159 0.722977 5.174 0.722977 5.19C0.722977 6.979 1.99598 8.473 3.68498 8.811C3.37498 8.895 3.04898 8.94 2.71198 8.94C2.47498 8.94 2.24298 8.919 2.01798 8.875C2.48698 10.343 3.85198 11.41 5.46698 11.44C4.20398 12.43 2.61198 13.02 0.881977 13.02C0.582977 13.02 0.289977 13.002 0.000976562 12.967C1.63498 14.016 3.57598 14.626 5.66198 14.626C12.454 14.626 16.169 8.999 16.169 4.12C16.169 3.959 16.165 3.799 16.157 3.641C16.878 3.123 17.505 2.472 18 1.731Z" fill="black"/>
+                    </svg></a>
+                    <a href="#"><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.816 4.982C6.816 4.982 8.414 4.858 8.414 2.906C8.415 0.953 7.107 0 5.451 0H0V10.912H5.451C5.451 10.912 8.778 11.022 8.778 7.69C8.778 7.69 8.923 4.982 6.816 4.982ZM2.402 1.94H5.45C5.45 1.94 6.191 1.94 6.191 3.076C6.191 4.211 5.755 4.376 5.261 4.376H2.402V1.94ZM5.296 8.973H2.402V6.056H5.45C5.45 6.056 6.554 6.042 6.554 7.554C6.555 8.831 5.73 8.963 5.296 8.973ZM13.215 2.777C9.188 2.777 9.192 6.968 9.192 6.968C9.192 6.968 8.915 11.141 13.215 11.141C13.215 11.141 16.799 11.355 16.799 8.239H14.957C14.957 8.239 15.018 9.413 13.277 9.413C13.277 9.413 11.432 9.542 11.432 7.513H16.861C16.861 7.512 17.454 2.777 13.215 2.777ZM14.854 6.056H11.414C11.414 6.056 11.639 4.376 13.257 4.376C14.873 4.375 14.854 6.056 14.854 6.056ZM15.282 0.643H10.962V1.988H15.282V0.643Z" fill="black"/>
+                    </svg></a>
+                    <a href="#"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.924 5.985C6.696 3.802 5.383 2.023 5.286 1.893C3.306 2.83 1.828 4.654 1.367 6.852C1.553 6.856 4.513 6.891 7.924 5.985ZM8.808 8.371C8.901 8.341 8.995 8.313 9.088 8.287C8.91 7.883 8.715 7.479 8.511 7.079C4.855 8.174 1.344 8.095 1.22 8.091C1.218 8.166 1.215 8.241 1.215 8.317C1.215 10.143 1.905 11.807 3.037 13.066C3.036 13.064 3.033 13.059 3.033 13.059C3.033 13.059 4.976 9.611 8.808 8.371ZM3.951 13.916L3.952 13.912C3.9 13.871 3.844 13.834 3.792 13.79C3.886 13.866 3.951 13.916 3.951 13.916ZM6.615 1.421C6.608 1.423 6.603 1.424 6.596 1.425C6.607 1.423 6.615 1.422 6.615 1.421ZM13.007 2.986C11.757 1.884 10.115 1.214 8.317 1.214C7.739 1.214 7.18 1.284 6.644 1.414C6.752 1.557 8.084 3.328 9.299 5.557C11.976 4.554 12.988 3.016 13.007 2.986ZM8.316 16.633C3.724 16.633 0 12.909 0 8.316C0 3.723 3.724 0 8.316 0C12.908 0 16.632 3.724 16.632 8.316C16.632 12.908 12.909 16.633 8.316 16.633ZM9.524 9.479C5.356 10.931 3.98 13.854 3.952 13.913C5.157 14.855 6.669 15.421 8.316 15.421C9.299 15.421 10.237 15.219 11.088 14.858C10.983 14.236 10.57 12.06 9.571 9.465C9.556 9.469 9.541 9.474 9.524 9.479ZM9.844 6.616C10.011 6.954 10.169 7.299 10.317 7.646C10.37 7.768 10.421 7.891 10.47 8.012C12.923 7.704 15.339 8.227 15.417 8.245C15.4 6.559 14.798 5.015 13.802 3.805C13.787 3.827 12.648 5.471 9.844 6.616ZM10.902 9.135C11.835 11.697 12.214 13.783 12.285 14.207C13.879 13.13 15.014 11.424 15.33 9.443C15.188 9.398 13.199 8.767 10.902 9.135Z" fill="black"/>
+                    </svg></a>
+                    <a href="#"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.638 8.499C13.638 11.337 11.335 13.638 8.498 13.638C5.66 13.638 3.36 11.337 3.36 8.499C3.36 8.161 3.393 7.831 3.456 7.511H0V14.342C0 15.809 1.189 16.998 2.656 16.998H14.342C15.806 16.998 16.998 15.809 16.998 14.342V7.511H13.542C13.605 7.831 13.638 8.161 13.638 8.499ZM14.342 0H2.656C1.189 0 0 1.189 0 2.656V5.534H4.303C5.233 4.219 6.766 3.36 8.498 3.36C10.232 3.36 11.765 4.218 12.693 5.534H16.998V2.656C16.998 1.189 15.806 0 14.342 0ZM15.641 3.281C15.641 3.542 15.426 3.756 15.166 3.756H13.742C13.48 3.756 13.268 3.543 13.268 3.281V1.858C13.268 1.597 13.48 1.383 13.742 1.383H15.166C15.426 1.383 15.641 1.596 15.641 1.858V3.281ZM11.66 8.499C11.66 6.752 10.245 5.336 8.498 5.336C6.753 5.336 5.336 6.753 5.336 8.499C5.336 10.245 6.753 11.66 8.498 11.66C10.245 11.66 11.66 10.245 11.66 8.499Z" fill="black"/>
+                    </svg></a>
+            </div>
+        </div>
+    </div>
+   </footer>
+</body>
+</html>
